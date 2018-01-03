@@ -1,0 +1,6 @@
+/Delphi/Debug
+/Delphi/Source/__history
+/Delphi/Source/*.local
+/Delphi/Source/*.identcache
+/Delphi/Source/*.res
+/Delphi/Source/*.stat
