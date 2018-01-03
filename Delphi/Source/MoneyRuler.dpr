@@ -13,7 +13,8 @@ uses
   API_DB_SQLite in '..\..\..\Libs\Delphi\API_DB_SQLite.pas',
   eCommon in 'eCommon.pas',
   eAccount in 'eAccount.pas',
-  API_ORM in '..\..\..\Libs\Delphi\API_ORM.pas';
+  API_ORM in '..\..\..\Libs\Delphi\API_ORM.pas',
+  vAccount in 'vAccount.pas' {ViewAccount};
 
 {$R *.res}
 

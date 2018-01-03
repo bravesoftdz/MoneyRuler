@@ -10,10 +10,10 @@ uses
 
 type
   TViewMain = class(TViewFMXBase)
-    btn1: TButton;
     lst1: TListBox;
-    procedure btn1Click(Sender: TObject);
+    btnAddAccount: TButton;
     procedure FormCreate(Sender: TObject);
+    procedure btnAddAccountClick(Sender: TObject);
   private
     { Private declarations }
     procedure InitView; override;
@@ -50,7 +50,7 @@ begin
     end;
 end;
 
-procedure TViewMain.btn1Click(Sender: TObject);
+procedure TViewMain.btnAddAccountClick(Sender: TObject);
 begin
   inherited;
   SendMessage('AddAccount');

@@ -1,0 +1,18 @@
+inherited ViewAccount: TViewAccount
+  Caption = 'MoneyRuler! Account'
+  DesignerMasterStyle = 0
+  object bcCaption: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 136.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 361.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblCaption: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'Account Caption'
+  end
+end
